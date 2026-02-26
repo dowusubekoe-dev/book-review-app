@@ -101,14 +101,15 @@ This three-tier architecture can be independently deployed, making it ideal for 
 ```
 /backend
  ├── /src
- │   ├── /config              # Database config and connection
- │   ├── /models              # Sequelize models (User, Book, Review)
- │   ├── /routes              # Express route handlers
- │   ├── /controllers         # API business logic
- │   ├── /middleware          # JWT auth middleware
- │   └── server.js            # Entry point of the backend server
- ├── package.json             # Dependencies and scripts
- └── README.md                # Backend-specific docs
+ │    ├── /config              # Database config and connection
+ │    ├── /models              # Sequelize models (User, Book, Review)
+ │    ├── /routes              # Express route handlers
+ │    ├── /controllers         # API business logic
+ │    ├── /middleware          # JWT auth middleware
+ │    └── server.js            # Entry point of the backend server
+ ├── .env                      # Environment variables (DB credentials, Ports)
+ ├── package.json              # Dependencies and scripts
+ └── README.md                 # Backend-specific docs
 ```
 
 ---
