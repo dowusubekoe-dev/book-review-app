@@ -51,7 +51,7 @@ Thumbs.db
 *.sql
 *.sqlite
 
-.claude/settings.local.json
+.claude/
 .mcp.json
 
 terraform/.terraform/
